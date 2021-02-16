@@ -7,7 +7,7 @@ n = 6
 
 initial_entropy = [[0 for col in range(n)] for row in range(n)]
 
-print("Number of bits is {} and the possible combinations are {:e}".format(n*n, Decimal(2**(n*n))))
+print("Number of bits are {} and the possible combinations are {:e}".format(n*n, Decimal(2**(n*n))))
 
 while True:
 
